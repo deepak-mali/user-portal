@@ -18,8 +18,8 @@ const db = admin.firestore();
 
 passport.use(
 	new GoogleStrategy({
-		clientID: '138526020930-41dipo69tbs3g5fqreiid4rh2idpg8sn.apps.googleusercontent.com',
-		clientSecret: 'hKqt5HZ6PXGGqGnJUsj8Wl_J',
+		clientID: 'xxxx',
+		clientSecret: 'xxxxx',
 		callbackURL: '/login/google/redirect'
 	}, (accessToken, refreshToken, profile, done) => {
 		console.log(profile);
